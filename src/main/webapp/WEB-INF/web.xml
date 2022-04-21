@@ -1,0 +1,71 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>BrandJsonServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.BrandJsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdsJsonServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.AdsJsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAdsServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.AddAdsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdsUserJsonServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.AdsUserJsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuthServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.AuthServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>ru.job4j.servlet.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandJsonServlet</servlet-name>
+    <url-pattern>/brandJson.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdsUserJsonServlet</servlet-name>
+    <url-pattern>/adsUserJson.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdsJsonServlet</servlet-name>
+    <url-pattern>/adsJson.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdsServlet</servlet-name>
+    <url-pattern>/addAds.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/reg.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthServlet</servlet-name>
+    <url-pattern>/auth.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+</web-app>
